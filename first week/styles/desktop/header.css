@@ -1,0 +1,29 @@
+.header {
+    background-color: black;
+    padding: 24px;
+}
+
+.header__ui {
+    display: flex;
+    flex-direction: row;
+    flex-grow: inherit;
+}
+
+.header__li {
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.header__button {
+    background: #E3B873;
+    box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
+    border-radius: 2px;
+    border: 0px;
+    height: 37px;
+    width: 161px;
+}
+
+.header__phone {
+    min-width: 126px;
+    min-height: 16px;
+}

@@ -1,0 +1,62 @@
+.main-background-photo {
+    background: url("../../images/main-background.png"); 
+    background-size: cover;
+}
+
+.main{
+    background-color: black;
+    background: rgba(0, 0, 0, 0.7);
+    height: 710px;
+    display: flex;
+}
+
+.main_content {
+    height: 305px;
+    width: 680px;
+    align-items: center; 
+    flex-grow: inherit;
+}
+
+.main__h1-text {
+    font-family: Yeseva One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 53px;
+    text-transform: uppercase;
+}
+
+.main__common-text {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 36px;
+}
+
+.main__button-left {
+    background: #E3B873;
+    border: 0px;
+    box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.3);
+    border-radius: 2px;
+    margin-right: 20px;
+    height: 51px;
+    width: 201px;
+    padding: 0px;
+}
+
+.main__button-right {
+    border: 1px solid;
+    box-sizing: border-box;
+    border-radius: 2px;
+    margin-right: 20px;
+    height: 51px;
+    width: 201px;
+    background: rgba(0, 0, 0, 0.1);
+    padding: 0px;
+}
+
+.main__sectionthree {
+    margin-top: 20px;
+}
+

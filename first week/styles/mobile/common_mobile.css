@@ -1,0 +1,11 @@
+@import url("main.css");
+
+@media screen and (max-width: 1440px) {
+    .mobilemode-hidden-element{
+        display:  none;
+    }
+
+    .container {
+        max-width: 350px;
+    }
+}

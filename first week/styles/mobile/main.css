@@ -1,0 +1,28 @@
+@media screen and (max-width: 1440px) {
+    .main__h1-text {
+        font-family: Yeseva One;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 23px;
+        line-height: 132.83%;
+        text-transform: uppercase;
+    }
+
+    .main__common-text {
+        font-family: Nunito Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 135.84%;
+    }
+
+    .main__button-left {
+        margin-top: 26px;
+        width: 100%;
+    }
+    
+    .main__button-right {
+        margin-top: 26px;
+        width: 100%;
+    }
+}

@@ -1,10 +1,9 @@
 .main-background-photo {
-    background: url("../../images/main-background.png"); 
+    background: url("../../images/main-background.png") 100% 100%; 
     background-size: cover;
 }
 
 .main{
-    background-color: black;
     background: rgba(0, 0, 0, 0.7);
     height: 710px;
     display: flex;

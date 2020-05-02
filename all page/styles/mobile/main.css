@@ -1,0 +1,210 @@
+@media screen and (max-width: 1300px) {
+    .main__h1-text {
+        font-family: Yeseva One;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 23px;
+        line-height: 132.83%;
+        text-transform: uppercase;
+    }
+
+    .main__common-text {
+        font-family: Nunito Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 135.84%;
+    }
+
+    .main__button-left {
+        margin-top: 26px;
+        width: 100%;
+    }
+    
+    .main__button-right {
+        margin-top: 26px;
+        width: 100%;
+    }
+
+    .section__two__base__sub__two {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .section__two__base__sub__two_content_left {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        height: 482px;
+    }
+
+    .section__two__base__sub__two__p{
+        text-align: center;
+    }
+
+    .section__two__base__sub__two__columns-size {
+        width: 170px;
+        height: 96px;
+    }
+
+
+    .section__two__base__sub__two__columns-font {
+        font-family: YesevaOne Regular;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 138.6%;
+    }
+
+
+    .section__three {
+        background: black;
+        height: 340px;
+    }
+
+    .section__three__base {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 430px;
+        margin-top: -350px;
+    }
+
+    .section__three__base__size {
+        width: 340px;
+        height: 100px;
+    }
+
+    .section__three__base__form {
+        width: 340px;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: flex-start;
+        flex-wrap: wrap;
+    }
+
+    .section__three__base__text {
+        font-family: Nunito Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 11px;
+        line-height: 169.8%;
+        text-align: center;
+        color: white;
+    }
+
+    .section__three__base__form__button-size {
+        width: 100%;
+        height: 51px;
+        background: #E3B873;
+        box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
+        border-radius: 2px;
+        border: 0px;
+        margin-top: 25px;
+    }
+
+    .section__four{
+        height: 2200px;
+    }
+
+    .section__four__base__columns {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .form__field {
+        color: white;
+        font-size: 14px;
+      }
+
+      .checkbox__text-color {
+        color: white;
+      }
+   
+      .checkbox {
+        margin-top: 15px;
+        margin-bottom: 15px;
+      }
+
+      .section__six__base{
+          height: 500px;
+      }
+
+      .section__six__base__box__questions{
+        padding-top: 10px;
+        height: 445.32px;
+        width: 100%;
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        padding-left: 10px;
+    } 
+
+    .section__six__base__box__questions__section_one {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    .section__six__base__box__questions__section_two_block_size {
+        width: 100%;
+    }
+
+    .section__six__base__box__questions__section_one {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .section__six__base__box__questions__section_two_size {
+        width: 100%;
+    }
+
+    .section__six__base__about_size {
+        margin-top: 0px;
+        width: 100%;
+        height: 51px;
+        order: 1;
+    }
+
+    .section__six__base__box__questions__button-size{
+        width: 340px;
+    }
+
+    .section__six-background-photo {
+        background: black;
+    }
+
+    .section__six__base__about_text {
+        font-family: Yeseva One;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 138.6%;
+    }
+
+    .section__six__base__about_button_size {
+        order: 2;
+    }
+
+    .section_six_map {
+        margin-top: 20px;
+    }
+    
+    .section__six__base__about_button_size {
+        margin-top: 10px;
+        margin-bottom: 10px;
+
+    }
+
+    .section__six__checkbox_left {
+        align-self: flex-start;
+    }
+}

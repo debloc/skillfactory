@@ -1,0 +1,602 @@
+.section__one-background-photo {
+    background: url("../../images/section-one-main-background.png") 100% 100%; 
+    background-size: cover;
+}
+
+.section__one-shadow{
+    background: rgba(0, 0, 0, 0.7);
+    height: 710px;
+    display: flex;
+}
+
+.section__one__base {
+    height: 305px;
+    width: 680px;
+    align-items: center; 
+    flex-grow: inherit;
+}
+
+.main__h1-text {
+    font-family: YesevaOne Regular;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 53px;
+    text-transform: uppercase;
+}
+
+.main__common-text {
+    font-family: NunitoSans Reqular;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 36px;
+}
+
+.main__button-left {
+    background: #E3B873;
+    border: 0px;
+    box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.3);
+    border-radius: 2px;
+    margin-right: 20px;
+    height: 51px;
+    width: 201px;
+    padding: 0px;
+}
+
+.main__button-right {
+    border: 1px solid;
+    box-sizing: border-box;
+    border-radius: 2px;
+    margin-right: 20px;
+    height: 51px;
+    width: 201px;
+    background: rgba(0, 0, 0, 0.1);
+    padding: 0px;
+}
+
+.main__ui-row-right{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.main__ui__text{
+    font-family: YesevaOne Regular;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px
+}
+
+.main__ui__li{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.main__ui__li-underline {
+    border-bottom: 2px solid currentColor;
+  }
+
+.section__one__base__sub__three {
+    margin-top: 20px;
+}
+
+.section__two {
+    background: black;
+    height: 1074px;
+    display: flex;
+}
+
+.section__two__base {
+    height: 553px;
+    width: 1171px;
+    transform: translate(0%, -20%);
+    align-items: center; 
+    flex-grow: inherit;
+
+}
+
+.section__two__base__sub__two {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.section__two__base__sub__two_content_left {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 482px;
+}
+
+.section__two__base__sub__two__h2 {
+    font-family: YesevaOne Regular;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 27px;
+    line-height: 37px;
+    letter-spacing: -0.07em;
+}
+
+.section__two__base__sub__two__p {
+    font-family: NunitoSans Reqular;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 27px;
+}
+
+.section__two__base__sub__two__span { 
+    font-family: NunitoSans Reqular;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 21px;
+}
+.section__two__base__sub__two__columns {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    flex: auto;
+    margin: 0px;
+}
+
+.section__two__base__sub__two__columns-size {
+    width: 200px;
+    height: 96px;
+}
+
+.section__two__base__sub__two__columns-font {
+    font-family: YesevaOne Regular;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.section__two__base__sub__two__control-arrow-left {
+    padding-right: 40px;
+}
+.section__two__base__sub__two__control-arrow-right {
+    padding-left: 40px;
+}
+
+.section__two__base__sub__two__control{
+    margin-top: 40px;
+}
+
+.section__two__base__sub__two__control-dot {
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.section__three {
+    background: white;
+    height: 600px;
+}
+
+.section__three__base {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 900px;
+    margin-top: -350px;
+}
+
+.section__three-padding {
+    padding: 10px;
+}
+
+.section__three__bases__hr {
+    width: 120px;
+    height: 2px;
+    border:none; 
+    background:#E3B873;
+    margin-top: 20px;
+}
+
+.section__three__base__text {
+    font-family: NunitoSans Reqular;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 37px;
+    text-align: center;
+}
+
+.section__three__base__size {
+    width: 680px;
+    height: 130px;
+}
+
+.section__three__base__form {
+    width: 823px;
+    height: 173px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.section__three__base__form__button-text {
+    font-family: NunitoSans Reqular;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 27px;
+}
+
+.section__three__base__form__button-size {
+    width: 200px;
+    height: 51px;
+    background: #E3B873;
+    box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
+    border-radius: 2px;
+    border: 0px;
+}
+
+.section__four__base {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 1410px;
+}
+
+ .section__four__base__columns {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.section__four__base__column {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 410px;
+    height: 638px;
+}
+
+.section__four__base__column__background-size {
+    width: 392px;
+    height: 421px;
+}
+
+.section__four__base__column_position {
+    width: 330px;
+    height: 286px;
+    margin-top: -120px;
+}
+
+.section__four__base__column_background {
+    width: 335px;
+    height: 230px;
+    background-color: white;
+} 
+
+.section__four__base__column_text {
+    padding-top: 25px;
+    padding-left: 35px;
+    font-family: YesevaOne Regular;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+} 
+
+.section__four__base__column_shadow {
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.03);
+} 
+
+.section__four__base__column__ui {
+    font-family: NunitoSans Reqular;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 27px;
+    color: #959595;
+} 
+
+.section__four__base__form__button-size {
+    width: 200px;
+    height: 51px;
+    background: #E3B873;
+    box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
+    border-radius: 2px;
+    border: 0px;
+}
+
+.section__four__base__column__background-left {
+    background-image: url(../../images/section_four_image_left.png);
+}
+
+.section__four__base__column__background-middle {
+    background-image: url(../../images/section_four_image_middle.png);
+
+}
+
+.section__four__base__column__background-right {
+    background-image: url(../../images/section_four_image_right.png);
+}
+
+.section__four__base__section__two {
+    display: flex;
+    justify-content: space-between;
+    height: 900px;
+    width: 1300px;
+    background: no-repeat url(../../images/section_four_base_section_two.png);
+}
+
+.section__four__base__section__two-left{
+    width: 374px;
+    height: 473px;
+    margin-left: 30%; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.section__four__base__section__two-right{
+    width: 506px;
+    height: 509px;
+    background-color: black;
+    margin-left: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.section__four__base__section__two-left-box{
+    width: 374px;
+    height: 88px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.section__four__base__section__two-left-box-text {
+    font-family: NunitoSans Reqular;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+}
+
+.section__four__base__section__two-right-label {
+    width: 210px;
+    height: 52px;
+}
+
+.section__four__base__section__two-right-input {
+    width: 408px !important;
+    height: 52px;
+}
+.section__four__base__section__two-right-button-container {
+    width: 408px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.section__four__base__section__two-right-checkbox {
+    color: white;
+    font-size: 14px;
+  }
+
+.section__section__four__base__section__two-right-button-size {
+    width: 200px;
+    height: 51px;
+    background: #E3B873;
+    box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
+    border-radius: 2px;
+    border: 0px;
+}
+  
+.section__section__four__base__section__two-right-button-text {
+    font-family: NunitoSans Reqular;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 27px;
+}
+
+.section__four__base__section__two-bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.section__four__base__section__two-bottom-box{
+    width: 374px;
+    height: 88px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-left: 50%;
+    margin-top: 20px;
+}
+
+
+.section__five {
+    background: repeat-x url(../../images/section_five-background.png);
+    background-position: bottom;
+}
+
+.section__five__base {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 1000px;
+}
+
+
+.section__five_subsection_one {
+    width: 476px;
+    height: 57px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.section__five_subsection_two {
+    width: 1236px;
+    height: 460px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.section__five_subsection_two_block-size {
+    width: 376px;
+    height: 455px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+} 
+
+
+.section__five_subsection_two_block-shadow {
+    box-shadow: 0px 5px 15px rgba(216, 212, 206, 0.2);
+} 
+
+.section__five__head__size {
+    width: 300px;
+    height: 76px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.section__five__head__text {
+    font-family: YesevaOne Regular;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+}
+
+.section__five__head_padding {
+    padding: 20px;   
+}
+
+.section__five__main__text {
+    font-family: NunitoSans Reqular;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 180%;
+    color: #959595;
+    width: 340px;
+    margin-left: 15px;
+}
+
+.section__five__main__bottom {
+    margin-left: -15px;
+    margin-bottom: -45px;
+}
+
+.section__six-background-photo {
+    background: url("../../images/section_six-background.png") 100% 100%; 
+    background-size: cover;
+}
+
+.section__six-shadow{
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+}
+
+
+.section__six__base {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 1000px;
+}
+
+.section__six__base__box__questions{
+    margin-top: -150px;
+    width: 883px;
+    height: 445.32px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+} 
+
+.section__six__base__box__questions__section_one {
+    width: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.section__six__base__box__questions__section_one_block_size {
+    width: 231px;
+
+}
+
+.section__six__base__box__questions__section_two_size {
+    width: 600px;
+}
+
+.section__six__base__box__questions__section_two_block_size {
+    width: 600px !important;
+    height: 52px;
+}
+
+
+.section__six__base__box__questions__button-size {
+    width: 200px;
+    height: 51px;
+    background: #E3B873;
+    box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
+    border-radius: 2px;
+    border: 0px;
+}
+
+.section__six__base__box__questions__button-text {
+    font-family: NunitoSans Reqular;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 27px;
+}
+
+.section__six__base__about_size {
+    margin-top: 52px;
+    width: 589px;
+    height: 51px;
+}
+
+
+.section__six__base__about_text {
+    font-family: YesevaOne Regular;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+}
+
+.section__six__base__about_button_size {
+    margin-top: 52px;
+    width: 80px;
+    height: 51px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

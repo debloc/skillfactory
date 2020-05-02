@@ -1,0 +1,76 @@
+@import url("header.css");
+@import url("main.css");
+@import url("checkbox.css");
+@import url("input.css");
+
+@font-face {
+    src: url('../../fonts/NunitoSans-Regular.ttf');
+    font-family: "NunitoSans Reqular";
+}
+
+@font-face {
+    src: url('../../fonts/NunitoSans-Italic.ttf');
+    font-family: "NunitoSans Italic";
+}
+
+@font-face {
+    src: url('../../fonts/YesevaOne-Regular.ttf');
+    font-family: "YesevaOne Regular";
+}
+
+body {
+    margin: 0;
+}
+
+.font-yellow {
+    color: #E3B873;
+}
+
+.font-white {
+    color: white;
+}
+
+.font-grey {
+    color: rgba(255, 255, 255, 0.3);
+}
+
+.font-italic {
+    font-style: italic;
+}
+
+.font-uppercase {
+    text-transform: uppercase;
+}
+
+.font-underline {
+    text-decoration: underline;
+}
+
+.font-underline-none {
+    text-decoration: none;
+}
+
+.container {
+    display: flex;
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.container__position-center-xy {
+    align-items: center;
+    justify-content: space-around;
+}
+
+.container__position-center-y {
+    align-items: center;
+    justify-content: left;
+}
+
+.button__text {
+    font-family: NunitoSans Reqular;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 15px;
+    text-transform: uppercase;
+}

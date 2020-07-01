@@ -3,6 +3,11 @@
     padding: 24px;
 }
 
+.header a:hover {
+    background: black; /* Цвет фона под ссылкой */ 
+    color: #E3B873; /* Цвет ссылки */ 
+   } 
+
 .header__ui {
     display: flex;
     flex-direction: row;

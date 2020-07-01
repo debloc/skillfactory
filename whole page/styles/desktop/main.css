@@ -17,7 +17,7 @@
 }
 
 .main__h1-text {
-    font-family: YesevaOne Regular;
+    font-family: "YesevaOne Regular";
     font-style: normal;
     font-weight: normal;
     font-size: 40px;
@@ -26,7 +26,7 @@
 }
 
 .main__common-text {
-    font-family: NunitoSans Reqular;
+    font-family: "NunitoSans Reqular";
     font-style: normal;
     font-weight: normal;
     font-size: 22px;
@@ -40,7 +40,7 @@
     border-radius: 2px;
     margin-right: 20px;
     height: 51px;
-    width: 201px;
+    width: 207px;
     padding: 0px;
 }
 
@@ -50,7 +50,7 @@
     border-radius: 2px;
     margin-right: 20px;
     height: 51px;
-    width: 201px;
+    width: 207px;
     background: rgba(0, 0, 0, 0.1);
     padding: 0px;
 }
@@ -62,7 +62,7 @@
 }
 
 .main__ui__text{
-    font-family: YesevaOne Regular;
+    font-family: "YesevaOne Regular";
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
@@ -78,8 +78,18 @@
     border-bottom: 2px solid currentColor;
   }
 
+.section__one__base__sub__one {
+    height: 105px;
+    width: 676px;
+}
+
+.section__one__base__sub__two {
+    height: 89px;
+    width: 504px;
+}
+
 .section__one__base__sub__three {
-    margin-top: 20px;
+    margin-top: 41px;
 }
 
 .section__two {
@@ -112,7 +122,7 @@
 }
 
 .section__two__base__sub__two__h2 {
-    font-family: YesevaOne Regular;
+    font-family: "YesevaOne Regular";
     font-style: normal;
     font-weight: normal;
     font-size: 27px;
@@ -121,15 +131,23 @@
 }
 
 .section__two__base__sub__two__p {
-    font-family: NunitoSans Reqular;
+    font-family: "NunitoSans Reqular";
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
     line-height: 27px;
 }
 
+.section__two__base__sub__two__text {
+    font-family: "YesevaOne Regular";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 27px;
+    line-height: 37px;
+}
+
 .section__two__base__sub__two__span { 
-    font-family: NunitoSans Reqular;
+    font-family: "NunitoSans Reqular";
     font-style: normal;
     font-weight: normal;
     font-size: 13px;
@@ -149,7 +167,7 @@
 }
 
 .section__two__base__sub__two__columns-font {
-    font-family: YesevaOne Regular;
+    font-family: "YesevaOne Regular";
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
@@ -198,7 +216,7 @@
 }
 
 .section__three__base__text {
-    font-family: NunitoSans Reqular;
+    font-family: "NunitoSans Reqular";
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
@@ -223,7 +241,7 @@
 }
 
 .section__three__base__form__button-text {
-    font-family: NunitoSans Reqular;
+    font-family: "NunitoSans Reqular";
     font-style: normal;
     font-weight: normal;
     font-size: 13px;
@@ -250,7 +268,9 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    height: 1200px;
 }
+
 
 .section__four__base__column {
     display: flex;
@@ -258,7 +278,7 @@
     justify-content: flex-start;
     align-items: center;
     width: 410px;
-    height: 638px;
+    height: 500px;
 }
 
 .section__four__base__column__background-size {
@@ -281,11 +301,13 @@
 .section__four__base__column_text {
     padding-top: 25px;
     padding-left: 35px;
-    font-family: YesevaOne Regular;
+    width: 286px;
+    height: 330px;
+    font-family: "NunitoSans Reqular";
+    font-size: 13px;
+    line-height: 27px;
     font-style: normal;
     font-weight: normal;
-    font-size: 18px;
-    line-height: 25px;
 } 
 
 .section__four__base__column_shadow {
@@ -293,7 +315,7 @@
 } 
 
 .section__four__base__column__ui {
-    font-family: NunitoSans Reqular;
+    font-family: "NunitoSans Reqular";
     font-style: normal;
     font-weight: normal;
     font-size: 13px;
@@ -308,6 +330,7 @@
     box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
     border-radius: 2px;
     border: 0px;
+    margin-top: -20px;
 }
 
 .section__four__base__column__background-left {
@@ -360,7 +383,7 @@
 }
 
 .section__four__base__section__two-left-box-text {
-    font-family: NunitoSans Reqular;
+    font-family: "NunitoSans Reqular";
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
@@ -398,7 +421,7 @@
 }
   
 .section__section__four__base__section__two-right-button-text {
-    font-family: NunitoSans Reqular;
+    font-family: "NunitoSans Reqular";
     font-style: normal;
     font-weight: normal;
     font-size: 13px;
@@ -480,7 +503,7 @@
 }
 
 .section__five__head__text {
-    font-family: YesevaOne Regular;
+    font-family: "YesevaOne Regular";
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
@@ -492,7 +515,7 @@
 }
 
 .section__five__main__text {
-    font-family: NunitoSans Reqular;
+    font-family: "NunitoSans Reqular";
     font-style: normal;
     font-weight: normal;
     font-size: 13px;
@@ -569,7 +592,7 @@
 }
 
 .section__six__base__box__questions__button-text {
-    font-family: NunitoSans Reqular;
+    font-family: "NunitoSans Reqular";
     font-style: normal;
     font-weight: normal;
     font-size: 13px;
@@ -584,7 +607,7 @@
 
 
 .section__six__base__about_text {
-    font-family: YesevaOne Regular;
+    font-family: "YesevaOne Regular";
     font-style: normal;
     font-weight: normal;
     font-size: 20px;

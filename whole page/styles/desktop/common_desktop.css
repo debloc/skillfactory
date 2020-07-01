@@ -20,7 +20,10 @@
 
 body {
     margin: 0;
+    font-family: "NunitoSans Reqular";
 }
+
+label { cursor: pointer; }
 
 .font-yellow {
     color: #E3B873;

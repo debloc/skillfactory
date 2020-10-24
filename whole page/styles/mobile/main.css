@@ -160,13 +160,31 @@
 
     .section__four__base {
         margin-top: 60px;
+        width: 100%;
+    }
+
+    .section__four__base__column {
+        width: 100%;
     }
 
     .section__four__base__columns {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
+        width: 100%;
     }
+    
+
+
+
+    .section__four__base__column__background-size {
+        width: inherit;
+       }
+
+    /* 
+    .section__four__base__column__background-left {
+        width: 100%;
+    } */
 
     .section__four__base__column_background {
         padding-bottom: 90px;
@@ -191,14 +209,16 @@
         margin-bottom: 15px;
       }
 
+
       .section__six__base{
-          height: 500px;
+          height: fit-content;
+          width: 100%;
       }
 
       .section__six__base__box__questions{
         padding-top: 10px;
         height: 445.32px;
-        width: 100%;
+        width: initial;
         background-color: black;
         display: flex;
         flex-direction: column;

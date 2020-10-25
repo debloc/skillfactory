@@ -1,18 +1,30 @@
 @import url("main.css");
+@import url("header.css");
+@import url("input.css");
 
 @media screen and (max-width: 1440px) {
+
+    @font-face {
+        src: url('../../fonts/NunitoSans-Regular.ttf');
+        font-family: "NunitoSans Reqular";
+    }
+
     .mobilemode-hidden-element{
         display:  none;
     }
 
     .container {
-        max-width: 350px;
+        max-width: 340px;
+        display: flex;
+        width: 100%;
+        margin: 0 auto;
     }
 }
 
 
 @media screen and (min-width: 1330px) {
     .desktop-hidden-element{
-        display:  none;
+        display: none;
     }
 }
+

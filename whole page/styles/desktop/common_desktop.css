@@ -33,6 +33,10 @@ label { cursor: pointer; }
     color: white;
 }
 
+.font-black {
+    color: black;
+}
+
 .font-grey {
     color: rgba(255, 255, 255, 0.3);
 }
@@ -70,7 +74,7 @@ label { cursor: pointer; }
 }
 
 .button__text {
-    font-family: NunitoSans Reqular;
+    font-family: "NunitoSans Reqular";
     font-style: italic;
     font-weight: normal;
     font-size: 11px;

@@ -24,8 +24,11 @@
                     <li><a href="#" class="header__li font-white font-uppercase font-underline-none">contacts</a></li>
                 </ul>
             </nav>
-            <div class="header__phone header__text font-yellow font-underline">
+            <div class="header__phone header__text font-yellow font-underline mobilemode-hidden-element">
                 <span class="font-yellow font-underline-none">+7 (928) 768-32-39</span>
+            </div>
+            <div class="header__phone header__text font-white desktop-hidden-element">
+                <span>+7 (928) 768-32-39</span>
             </div>
 
             <button class="header__button button__text font-italic font-white mobilemode-hidden-element">
@@ -44,7 +47,7 @@
                         </div>
                         <div class="section__one__base__sub__two">
                             <p class="main__common-text font-white"> Get ready-made turnkey repairs on time<br>
-                                with work time saving up to 45 days and 20% from<br>
+                                with work time saving up to 45 days and 20% from
                                 cost of materials due to the organization of work.
                             </p>
                         </div>
@@ -53,7 +56,7 @@
                                 CALCULATE THE COST
                             </button>
                             <button class="main__button-right button__text font-white">
-                                SUBMIT YOUR APPLICATION
+                                APPLICATION
                             </button>
                         </div>
                     </div>
@@ -153,12 +156,14 @@
                     </div>
                     <form class="section__three__base__form">
                         <div class="form__group field">
+                            <div class="text_over_label">Name</div>
                             <input type="input" class="form__field" placeholder="Name" name="name" id='processing_name' required/>
-                            <label for="name" class="form__label">What is your name</label>
+                            <label for="name" class="form__label font-black">What is your name</label>
                         </div>
                         <div class="form__group field">
+                            <div class="text_over_label">Phone</div>
                             <input type="input" class="form__field" placeholder="Name" name="name" id='processing_phone' required/>
-                            <label for="name" class="form__label">Your phone number</label>
+                            <label for="name" class="form__label font-black">Your phone number</label>
                         </div>
                         <button class="section__three__base__form__button-size section__three__base__form__button-text font-white font-uppercase mobilemode-hidden-element">
                             submit
@@ -277,14 +282,17 @@
                                 Leave a request for free departure of the measurer
                             </div>
                             <div class="form__group field section__four__base__section__two-right-input">
+                                <div class="text_over_label">Name</div>
                                 <input type="input" class="form__field font-white" placeholder="Name" name="name" id='request_name' required/>
                                 <label for="name" class="form__label">What is your name:</label>
                             </div>
                             <div class="form__group field section__four__base__section__two-right-input">
+                                <div class="text_over_label">Phone</div>
                                 <input type="input" class="form__field font-white" placeholder="Name" name="name" id='request_phone' required/>
                                 <label for="name" class="form__label">Your phone number:</label>
                             </div>
                             <div class="form__group field section__four__base__section__two-right-input">
+                                <div class="text_over_label">Email</div>
                                 <input type="input" class="form__field font-white" placeholder="Name" name="name" id='request_email' required/>
                                 <label for="name" class="form__label">Your email:</label>
                             </div>
@@ -381,10 +389,12 @@
                             </div>
                             <div class="section__six__base__box__questions__section_one"> 
                                 <div class="form__group field section__six__base__box__questions__section_one_block_size">
+                                    <div class="form__label text_over_label">Name</div>
                                     <input type="input" class="form__field font-white" placeholder="Name" name="name" id='haq_name' required/>
                                     <label for="name" class="form__label">What is your name:</label>
                                 </div>
                                 <div class="form__group field section__six__base__box__questions__section_one_block_size">
+                                    <div class="form__label text_over_label">Phone</div>
                                     <input type="input" class="form__field font-white" placeholder="Number" name="number" id='haq_number' required/>
                                     <label for="number" class="form__label">Your phone number:</label>
                                 </div>
@@ -392,10 +402,12 @@
     
                             <div class="section__six__base__box__questions__section_two_size">
                                 <div class="form__group field section__six__base__box__questions__section_two_block_size mobilemode-hidden-element">
+                                    <div class="form__label text_over_label">Question</div>
                                     <input type="input" class="form__field font-white" placeholder="Know" name="know" id='haq_know' required/>
                                     <label for="know" class="form__label">I want to know:</label>
                                 </div>
                                 <div class="form__group field desktop-hidden-element">
+                                    <div class="form__label text_over_label">Question</div>
                                     <input type="input" class="form__field font-white" placeholder="Know" name="know" id='khaq_now' required/>
                                     <label for="know" class="form__label">I want to know:</label>
                                 </div>

@@ -14,6 +14,8 @@
         font-weight: normal;
         font-size: 14px;
         line-height: 135.84%;
+        color: #FFFFFF;
+        width: 320px;
     }
 
     .main__button-left {
@@ -39,8 +41,9 @@
 
     .section__one-shadow{
         background: rgba(0, 0, 0, 0.7);
-        height: 600px;
+        height: 400px;
         display: flex;
+        padding-top: 70px;
     }
     
     .section__one-background-photo {
@@ -59,7 +62,7 @@
     }
 
     .section__two {
-        padding-top: 400px;
+        padding-top: 350px;
         height: 700px;
     }
 
@@ -82,6 +85,22 @@
 
     .section__two__base__sub__two__p{
         text-align: center;
+        font-family: "NunitoSans Reqular";
+        font-style: normal;
+        font-weight: normal;
+        font-size: 11px;
+        line-height: 158.48%;
+        color: #FFFFFF;
+        width: 320px;
+    }
+
+    .section__two__base__sub__two__span {
+        font-family: "NunitoSans Reqular";
+        font-style: normal;
+        font-weight: normal;
+        font-size: 11px;
+        line-height: 135.84%;
+        color: #FFFFFF;
     }
 
     .section__two__base__sub__two__text {
@@ -132,6 +151,7 @@
         justify-content: space-around;
         align-items: flex-start;
         flex-wrap: wrap;
+        margin-top: 0px;
     }
 
     .section__three__base__text {
@@ -209,9 +229,8 @@
         margin-bottom: 15px;
       }
 
-
       .section__six__base{
-          height: fit-content;
+          height: 100%;
           width: 100%;
       }
 

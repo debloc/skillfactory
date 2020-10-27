@@ -1,4 +1,10 @@
 @media screen and (max-width: 1300px) {
+
+    .header .container__position-center-xy {
+        justify-content: space-between;
+    }
+
+
     .main__h1-text {
         font-family: "YesevaOne Regular";
         font-style: normal;
@@ -90,7 +96,6 @@
         font-weight: normal;
         font-size: 11px;
         line-height: 158.48%;
-        color: #FFFFFF;
         width: 320px;
     }
 
@@ -114,7 +119,6 @@
         width: 170px;
         height: 96px;
     }
-
 
     .section__two__base__sub__two__columns-font {
         font-family: "YesevaOne Regular";
@@ -174,6 +178,9 @@
         margin-top: 25px;
     }
 
+    .form__group .font-black {
+        color: white;
+    }
     .section__four{
         height: 1700px;
     }

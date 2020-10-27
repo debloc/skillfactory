@@ -175,7 +175,7 @@
     }
 
     .section__four{
-        height: 1830px;
+        height: 1700px;
     }
 
     .section__four__base {
@@ -185,6 +185,7 @@
 
     .section__four__base__column {
         width: 100%;
+        align-items: flex-start;
     }
 
     .section__four__base__columns {
@@ -194,24 +195,17 @@
         width: 100%;
     }
     
-
-
-
     .section__four__base__column__background-size {
         width: inherit;
-       }
-
-    /* 
-    .section__four__base__column__background-left {
-        width: 100%;
-    } */
+    }
 
     .section__four__base__column_background {
         padding-bottom: 90px;
+        width: auto;
     }
-    
+
     .section__four__base__column_text {
-        width: 270px;
+        width: 240px;
         height: 241px;
     }
 
@@ -235,6 +229,7 @@
       }
 
       .section__six__base__box__questions{
+        margin-top: 0px;
         padding-top: 10px;
         height: 445.32px;
         width: initial;
